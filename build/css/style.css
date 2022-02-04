@@ -744,6 +744,7 @@ strong {
 		font-size: 18px;
 		line-height: 30px;
 		letter-spacing: -0.1px
+		
 	}
 }
 
@@ -957,12 +958,17 @@ strong {
 		max-width: 280px
 	}
 	
+	.sepcialsz{
+		word-wrap: break-word;
+	}
+	
 }
 
 @media (min-width: 641px) {
 	.gbuttony {
 		margin-right: 10px;
 	}
+	
 	
 }
 
@@ -2999,7 +3005,7 @@ ul.rq li {
 
 .io .rd {
 	padding-top: 48px;
-	padding-bottom: 48px
+	padding-bottom: 12px
 }
 
 .iu {
