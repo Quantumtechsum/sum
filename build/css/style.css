@@ -960,8 +960,8 @@ strong {
 }
 
 .sepcialsz{
-		word-wrap: break-word;
-	}
+	word-wrap: break-word;
+}
 
 @media (min-width: 641px) {
 	.gbuttony {
