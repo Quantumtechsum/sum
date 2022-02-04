@@ -1,0 +1,103 @@
+/* CSS Document */
+.bti-header { padding: 0 20px; position: relative;}
+.bti-header .logo { float: left; margin: 15px 0;}
+.bti-header .logo a { display: block; width: 149px; height: 40px; background: url("../images/bti-logo.png") no-repeat 0 0; background-size: 100% auto;}
+.bti-nav { float: right; margin: 0 50px 0 0; height: 68px; line-height: 68px;}
+.bti-nav ul { float: left; margin-right: 20px;}
+.bti-nav ul li { float: left; margin-right: 12px;}
+.bti-nav ul li a { display: block; padding: 0 5px; color: #333;}
+.bti-nav ul li a.cur { border-bottom: 2px solid #333;}
+.bti-nav .link-github { float: right;}
+.bti-nav .link-github a { color: #333;}
+.bti-nav .link-github a:hover { color: #000; text-decoration: underline;}
+.bti-nav .link-github a i { display: inline-block; width: 24px; height: 24px; margin-right: 5px; background: url("../images/icon-github.png") no-repeat 0 100%; background-size: 24px auto; position: relative; top: 6px;}
+
+.bti-header .language { position: absolute; right: 12px; top: 18px;}
+.bti-header .language a {display: block;padding: 0 6px;height: 30px;line-height: 30px;color: #000;border: 1px solid #666;transition: all .8s ease;}
+
+.bti-header .language-box { right: 10px; top: 60px;}
+.bti-header .language-box { position: absolute; background-color: #999;}
+.bti-header .language-box li a { color: #fff;}
+.bti-header .language-box li a:hover { background-color: #666;}
+.bti-header .language-box i { border-bottom: 8px solid #999;}
+.bti-header .language a i { display: inline-block; width: 6px; height: 4px; background: url("../images/icon-language-more2.png") no-repeat 0 0; background-size: 100% auto; margin-left: 2px; position: relative; top: -2px;}
+
+
+.bti-banner { position: relative; height: 400px; background: url("../images/bg-bti.jpg") no-repeat center center; background-size: cover;}
+.bti-banner img { position: absolute; max-width: 500px; width: 70%;
+    left: 50%; top: 50%; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%);
+}
+.bti-box { padding: 100px 0;}
+.bti-layout { max-width: 1000px; width: 90%; margin: 0 auto;}
+.bti-box h2.tit { margin-bottom: 30px;}
+.bti-intro p { text-align: justify; line-height: 2;}
+
+.bti-framework { background-color: #f5f5f5;}
+.bti-framework img { max-width: 460px; width: 90%;}
+
+.bti-product ul li { float: left; width: 20%;}
+.bti-product ul li a { display: block; border: 1px solid #ddd; margin: 0 5px; border-radius: 2px; padding: 20px 15px; box-shadow: 0 1px 3px -2px rgba(10, 16, 34, .1); transition: all .3s ease;}
+.bti-product ul li a:hover { box-shadow: 0 10px 60px -2px rgba(10, 16, 34, .1); transition: all .3s ease;}
+.bti-product ul li a img { width: 60px;}
+.bti-product ul li a h2 { overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.bti-product ul li a p { overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+
+.bti-serviceProcess { background-color: #f5f5f5;}
+.bti-serviceProcess ul li { float: left; width: 20%; font-size: 14px; position: relative;}
+.bti-serviceProcess ul li:after { display: inline-block; content: ""; width: 6px; height: 11px; background: url("../images/icon-process-arrow.png") no-repeat 0 0; background-size: 6px auto; position: absolute; right: 0; top: 50%; margin: -5px -3px 0 0;}
+.bti-serviceProcess ul li:last-child:after { display: none;}
+.bti-serviceProcess ul li i { display: inline-block; width: 60px; height: 60px; background: url("../images/icon-process.png") no-repeat 0 0; background-size: 100% auto;}
+.bti-serviceProcess ul li i.icon-process2 { background-position: 0 -60px;}
+.bti-serviceProcess ul li i.icon-process3 { background-position: 0 -120px;}
+.bti-serviceProcess ul li i.icon-process4 { background-position: 0 -300px;}
+.bti-serviceProcess ul li i.icon-process5 { background-position: 0 -360px;}
+
+
+.bti-otherService ul li { margin-bottom: 10px;}
+.bti-otherService ul li a { display: block; border:1px solid #ddd; border-radius: 2px; padding: 10px 85px; text-align: left; position: relative; box-shadow: 0 1px 3px -2px rgba(10, 16, 34, .1); transition: all .3s ease;}
+.bti-otherService ul li a:hover { box-shadow: 0 10px 60px -2px rgba(10, 16, 34, .1); transition: all .3s ease;}
+.bti-otherService ul li .s-content i {display: inline-block; width: 100px;height: 100px; background: url("../images/icon-services.png") no-repeat 0 0; background-size: 100% auto;}
+.bti-otherService ul li .s-content i.icon-services { position: absolute; left: 20px; top: 50%; margin-top: -20px; width: 40px; height: 40px; background-size: 40px auto;}
+.bti-otherService ul li .s-content i.icon-services2 { background-position: 0 -40px;}
+.bti-otherService ul li .s-content i.icon-services3 { background-position: 0 -80px;}
+.bti-otherService ul li .s-content i.icon-services4 { background-position: 0 -120px;}
+.bti-otherService ul li .s-content i.icon-services5 { background-position: 0 -160px;}
+.bti-otherService ul li .s-content i.icon-services6 { background-position: 0 -200px;}
+.bti-otherService ul li .s-content i.icon-services7 { background-position: 0 -240px;}
+.bti-otherService ul li .s-content i.icon-services8 { background-position: 0 -280px;}
+.bti-otherService ul li h3 { overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.bti-otherService ul li p { overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.bti-otherService ul li .more { position: absolute; right: 15px; top: 50%; margin-top: -8px;}
+.bti-otherService ul li .more:after { position: relative; top: 2px; margin-left: 3px; display: inline-block; content: ''; width: 12px; height: 12px; background: url("../images/icon-process-arrow.png") no-repeat center center; background-size: auto 100%;}
+
+.bti-box.bti-otherService { padding: 100px 0 50px 0;}
+
+@media screen and (max-width: 750px) {
+    .bti-header { padding: 0;}
+    .bti-header .logo { margin: 18px 0 5px 12px;}
+    .bti-header .logo a { height: 30px; width: 112px;}
+    .bti-banner { height: 300px;}
+    .bti-box { padding: 50px 0;}
+    .bti-box.bti-otherService { padding: 50px 0 20px 0;}
+    .bti-box h2.tit { margin-bottom: 20px;}
+    .bti-nav { height: 40px; line-height: 40px; float: none; margin: 0; width: 100%; clear: both;}
+    .bti-nav ul { float: none; width: 100%; margin: 0; text-align: center;}
+    .bti-nav ul li { float: none; display: inline-block; margin: 0 5px;}
+    .bti-nav ul li:last-child { display: none;}
+    .bti-nav ul li a { padding: 0;}
+    .bti-nav .link-github { float: none; position: absolute; top: 15px; right: 60px;}
+    .bti-serviceProcess ul li { font-size: 12px;}
+    .bti-serviceProcess ul li i { width: 40px; height: 40px;}
+    .bti-serviceProcess ul li i.icon-process2 { background-position: 0 -40px;}
+    .bti-serviceProcess ul li i.icon-process3 { background-position: 0 -80px;}
+    .bti-serviceProcess ul li i.icon-process4 { background-position: 0 -120px;}
+    .bti-serviceProcess ul li i.icon-process5 { background-position: 0 -160px;}
+    .bti-product ul li { width: 100%; margin-bottom: 10px;}
+    .bti-product ul li a { margin: 0; padding: 15px;}
+
+}
+
+@media screen and (max-width: 374px) {
+    .bti-nav ul li { margin: 0;}
+
+}
