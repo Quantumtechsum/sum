@@ -952,9 +952,18 @@ strong {
 
 @media (max-width: 640px) {
 	.gbuttony {
+		margin-top: 20px;
 		width: 100%;
 		max-width: 280px
 	}
+	
+}
+
+@media (min-width: 641px) {
+	.gbuttony {
+		margin-right: 10px;
+	}
+	
 }
 
 @-webkit-keyframes button-loading {
