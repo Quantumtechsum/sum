@@ -2905,6 +2905,11 @@ ul.rq li {
 	max-width: 344px
 }
 
+.boxing .ng {
+	flex-basis: 344px;
+	max-width: 100%
+}
+
 .in .ny {
 	padding-top: 20px;
 	padding-bottom: 20px;
