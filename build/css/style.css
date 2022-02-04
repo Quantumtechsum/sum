@@ -956,13 +956,12 @@ strong {
 		margin-top: 20px;
 		width: 100%;
 		max-width: 280px
-	}
-	
-	.sepcialsz{
+	}	
+}
+
+.sepcialsz{
 		word-wrap: break-word;
 	}
-	
-}
 
 @media (min-width: 641px) {
 	.gbuttony {
