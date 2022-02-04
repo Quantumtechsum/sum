@@ -19,18 +19,8 @@ code="SUM"
 issuer="GDWQBZ37I472XAGLC2DWZKCGPVU7WWQJNRVQBMW7EQI772EI5O3RLE6L"
 anchor_asset="false"
 name="Stratum"
-desc="The Second Quantum Revolution is under underway, taking advantage of huge
-advances in our capacity to detect and operate single quantum objects. This
-global transformation is being driven by the Stratum Quantum Technologies
-development."
-conditions="A quantum technology is one that derives its functioning from manipulating
-the states of quantum systems. This distinguishes quantum technologies from
-other twentieth-century technologies (e.g., lasers, magnetic resonance
-imaging, semiconductor electronics) that use quantum phenomena (e.g.,
-coherence, quantised energy, tunneling) but do not directly initialize,
-manipulate, or measure the states of individual quantum systems. Some
-elementary quantum physics is required for this concept and the subsequent
-parts to make sense."
+desc="The Second Quantum Revolution is under underway, taking advantage of huge advances in our capacity to detect and operate single quantum objects. This global transformation is being driven by the Stratum Quantum Technologies development."
+conditions="A quantum technology is one that derives its functioning from manipulating the states of quantum systems. This distinguishes quantum technologies from other twentieth-century technologies (e.g., lasers, magnetic resonance imaging, semiconductor electronics) that use quantum phenomena (e.g., coherence, quantised energy, tunneling) but do not directly initialize, manipulate, or measure the states of individual quantum systems. Some elementary quantum physics is required for this concept and the subsequent parts to make sense."
 image="https://i.ibb.co/LCHVvVt/logo.png"
 fixed_number=1000000000
 max_number=1000000000
