@@ -49,6 +49,7 @@ h1 {
     left: 25%;
     width: 80px;
     height: 80px;
+	background: radial-gradient(circle at bottom, rgba(255, 255, 218, 0.2) 0%, rgba(249, 112, 89, 0.2) 50%, rgba(249, 66, 95, 0.2) 100%);
     animation-delay: 0s;
 }
 
@@ -57,6 +58,7 @@ h1 {
     left: 10%;
     width: 20px;
     height: 20px;
+	
     animation-delay: 2s;
     animation-duration: 12s;
 }
@@ -65,6 +67,7 @@ h1 {
     left: 70%;
     width: 20px;
     height: 20px;
+	background: radial-gradient(circle at bottom, rgba(255, 255, 218, 0.2) 0%, rgba(249, 112, 89, 0.2) 50%, rgba(249, 66, 95, 0.2) 100%);
     animation-delay: 4s;
 }
 
@@ -80,6 +83,7 @@ h1 {
     left: 65%;
     width: 20px;
     height: 20px;
+	background: radial-gradient(circle at bottom, rgba(255, 255, 218, 0.2) 0%, rgba(249, 112, 89, 0.2) 50%, rgba(249, 66, 95, 0.2) 100%);
     animation-delay: 0s;
 }
 
@@ -101,6 +105,7 @@ h1 {
     left: 50%;
     width: 25px;
     height: 25px;
+	background: radial-gradient(circle at bottom, rgba(255, 255, 218, 0.2) 0%, rgba(249, 112, 89, 0.2) 50%, rgba(249, 66, 95, 0.2) 100%);
     animation-delay: 15s;
     animation-duration: 45s;
 }
@@ -117,6 +122,7 @@ h1 {
     left: 85%;
     width: 150px;
     height: 150px;
+	background: radial-gradient(circle at bottom, rgba(255, 255, 218, 0.2) 0%, rgba(249, 112, 89, 0.2) 50%, rgba(249, 66, 95, 0.2) 100%);
     animation-delay: 0s;
     animation-duration: 11s;
 }
