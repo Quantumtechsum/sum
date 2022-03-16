@@ -1,23 +1,32 @@
 NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
-
 ACCOUNTS=[
 "GDWQBZ37I472XAGLC2DWZKCGPVU7WWQJNRVQBMW7EQI772EI5O3RLE6L"
 ]
 VERSION="2.0.0" 
 
 [DOCUMENTATION]
-ORG_NAME="Stratum"
-ORG_URL="https://www.stratumdev.com"
+ORG_NAME="Stratum Development Labs"
+ORG_DBA="Stratum"
+ORG_URL="https://stratumdev.com"
 ORG_DESCRIPTION="BASED ON QUANTUM TECHNOLOGY AND AI"
 ORG_TWITTER="@stratumdevelop"
 ORG_LOGO="https://i.ibb.co/LCHVvVt/logo.png"
 ORG_OFFICIAL_EMAIL="support@stratumdev.com"
 
+[[PRINCIPALS]]
+name="Stan Druckenmiller"
+twitter="DruckenmillerS"
+id_photo_hash="be688838ca8686e5c90689bf2ab585cef1137c999b48c70b92f67a5c34dc15697b5d11c982ed6d71be1e1e7f7b4e0733884aa97c3f7a339a8ed03577cf74be09"
+verification_photo_hash="016ba8c4cfde65af99cb5fa8b8a37e2eb73f481b3ae34991666df2e04feb6c038666ebd1ec2b6f623967756033c702dde5f423f7d47ab6ed1827ff53783731f7"
+
 
 [[CURRENCIES]]
 code="SUM"
 issuer="GDWQBZ37I472XAGLC2DWZKCGPVU7WWQJNRVQBMW7EQI772EI5O3RLE6L"
-anchor_asset="false"
+status="Available"
+is_asset_anchored=true
+anchor_asset_type="crypto"
+redemption_instructions="SUM available on ERC-20 and BEP-20"
 name="Stratum"
 desc="The Second Quantum Revolution is under underway, taking advantage of huge advances in our capacity to detect and operate single quantum objects. This global transformation is being driven by the Stratum Quantum Technologies development."
 conditions="A quantum technology is one that derives its functioning from manipulating the states of quantum systems. This distinguishes quantum technologies from other twentieth-century technologies (e.g., lasers, magnetic resonance imaging, semiconductor electronics) that use quantum phenomena (e.g., coherence, quantised energy, tunneling) but do not directly initialize, manipulate, or measure the states of individual quantum systems. Some elementary quantum physics is required for this concept and the subsequent parts to make sense."
