@@ -23,9 +23,10 @@ verification_photo_hash="016ba8c4cfde65af99cb5fa8b8a37e2eb73f481b3ae34991666df2e
 [[CURRENCIES]]
 code="SUM"
 issuer="GDWQBZ37I472XAGLC2DWZKCGPVU7WWQJNRVQBMW7EQI772EI5O3RLE6L"
-status="Available"
-is_asset_anchored=true
-anchor_asset_type="crypto"
+status="live"
+is_asset_anchored = true
+anchor_asset_type = 'fiat'
+anchor_asset = 'SUM'
 redemption_instructions="SUM available on ERC-20 and BEP-20"
 name="Stratum"
 desc="The Second Quantum Revolution is under underway, taking advantage of huge advances in our capacity to detect and operate single quantum objects. This global transformation is being driven by the Stratum Quantum Technologies development."
